@@ -1,0 +1,131 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.navbar{
+    box-shadow: 2px 1px 5px 1px #565151;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    background-color: rgb(12, 12, 12);
+    color: white; 
+    box-sizing: border-box;
+    margin: auto;
+    position: fixed;
+}
+.navbar>div:nth-child(1){
+    height: 30px;
+    width: 2%;
+    margin: 0px 0px 10px 200px;
+    padding: 6px 0px 0px 0px;
+    justify-content: center;
+}
+.navbar>div:nth-child(2){
+    height: 25px;
+    width: 25%;
+    margin: 0px 0px 10px 0px;
+    padding: 0px 0px 0px 0px;
+    display: flex;
+    background-color: rgb(12, 12, 12);
+    color: white; 
+}
+.navbar>div:nth-child(3){
+    height: 25px;
+    width: 30%;
+    margin: 0px 0px 0px 300px;
+    padding-top: 8px;
+    text-align: end;
+    background-color: rgb(12, 12, 12);
+    color: white; 
+}
+#autoRefresh{
+    margin: 4px 0px 0px 0px;
+    line-height: normal;
+    box-sizing: border-box;
+    padding: 0;
+    background-color: initial;
+    cursor: default;
+    appearance: auto;
+}
+span{
+    box-sizing: border-box;
+    cursor: pointer;
+    list-style: none;
+    font-weight: 600;
+    font-family: 'Open Sans',sans-serif;
+}
+.socialFext > div{
+    width: 10px;
+    height: 20px;
+    display: flex;
+    margin: auto;
+}
+.epaper{
+    margin-top: 10px;
+}
+.facebook{
+    width: 20px;
+    height: 30px;
+    margin: 5px 0px 0px 15px;
+}
+.twiter{
+    width: 18px;
+    height: 15px;
+    margin: 12px 0px 0px 5px;
+}
+.instagram{
+    width: 18px;
+    height: 20px;
+    margin: 10px 0px 0px 8px;
+}
+.appstore{
+    width: 28px;
+    height: 28px;
+    margin: 5px 0px 0px 10px;
+}
+.chronicle{
+    height: 120px;
+    width: 75%;
+    margin: auto;
+    padding-top: 40px;
+}
+#deccan{
+    width: 280px;
+    height: 80px;
+    margin: 10px 0px 0px 400px;
+    padding-top: 20px;
+}
+p{
+    padding-top: 15px;
+    font-size: 15px;
+    text-align: center;
+    cursor: pointer;
+    font-family: 'Open Sans',sans-serif;
+}
+#empty{
+    border: 1px solid black;
+    background-color: black;
+    margin-top: 10px;
+}
+#subscribe{
+    margin-top: 25px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+}
+#login{
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    cursor: pointer; 
+}
+#login>a{
+    color: white;
+}

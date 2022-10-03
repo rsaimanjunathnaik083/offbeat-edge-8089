@@ -1,0 +1,45 @@
+#deccan{
+    width: 200px;
+    margin: 30px 0px 0px 43%;
+}
+.signin{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 8px;
+    margin: auto;
+    margin-top: 25px;
+    height: 500px;
+    width: 35%;
+}
+h2{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 1px 5px;
+    border-radius: 5px;
+    font-size: 32px;
+    height: 50px;
+    text-align: center;
+    padding-top: 25px;
+    font-weight: 600;
+    font-family: 'Open Sans',sans-serif;
+}
+p{
+    font-size: 21px;
+    margin-left: 25px;
+    font-weight: 600;
+    font-family: 'Open Sans',sans-serif;
+}
+input{
+    border-radius: 5px;
+    margin-left: 20px;
+    width: 80%;
+    font-size: 30px;
+}
+button{
+    cursor: pointer;
+    margin-top: 25px;
+    border-radius: 5px;
+    margin-left: 20px;
+    width: 80%;
+    font-size: 30px;
+}
+#dont{
+    font-size: 15px;
+}

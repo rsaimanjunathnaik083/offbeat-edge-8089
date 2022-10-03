@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./Styles/login.css">
+    <title>Login page</title>
+  </head>
+  <body>
+    <div>
+      <img id="deccan" src="https://www.deccanchronicle.com/images/DeccanChronicle_Logo.jpg" alt="">
+    </div>
+
+    <div class="signin">
+      <h2>
+        Sign In
+      </h2>
+      <div>
+        <p>Email</p>
+        <input type="text" placeholder="Enter email">
+      </div>
+      <div>
+        <p>Password</p>
+        <input type="password" placeholder="Enter password">
+      </div>
+      <button onclick="signin()">SIGN IN</button>
+      <button onclick="google()">
+        <a href="https://accounts.google.com/v3/signin/identifier?dsh=S-1140462265%3A1664786496863676&authuser=0&continue=https%3A%2F%2Fmyaccount.google.com%2F&ec=GAlAwAE&hl=en_GB&service=accountsettings&flowName=GlifWebSignIn&flowEntry=AddSession">
+        CONTINUE WITH GOOGLE
+        </a>
+      </button>
+      <P id="dont">Don't have an account? "SIGN UP"</P>
+    </div>
+  </body>
+  <script src="./Scripts/login.js"></script>
+</html>

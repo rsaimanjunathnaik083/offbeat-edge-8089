@@ -1,0 +1,32 @@
+#main{
+    height: 1370px;
+    width: 75%;
+    margin: auto;
+    display: flex;
+}
+.container{
+    height: 1370px;
+    width: 40%;
+}
+.container>div{
+    height:400px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.container-1{
+    height: 1370px;
+    width: 30%;
+}
+.container-1>div{
+    box-shadow: 0px 0px 1px 0px #655f5f;
+    height: 91px;
+}
+.container-2{
+    box-shadow: 0px 0px 1px 0px #655f5f;
+    height: 1370px;
+    width: 30%;
+} 
+.container-2>div{
+    box-shadow: 0px 0px 1px 0px #655f5f;
+    height: 91px;
+}
